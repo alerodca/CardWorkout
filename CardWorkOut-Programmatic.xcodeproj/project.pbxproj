@@ -16,6 +16,10 @@
 		7519D33D2AC76C380093A4F1 /* CardWorkOut_ProgrammaticTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7519D33C2AC76C380093A4F1 /* CardWorkOut_ProgrammaticTests.swift */; };
 		7519D3472AC76C380093A4F1 /* CardWorkOut_ProgrammaticUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7519D3462AC76C380093A4F1 /* CardWorkOut_ProgrammaticUITests.swift */; };
 		7519D3492AC76C380093A4F1 /* CardWorkOut_ProgrammaticUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7519D3482AC76C380093A4F1 /* CardWorkOut_ProgrammaticUITestsLaunchTests.swift */; };
+		7519D3562AC772060093A4F1 /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7519D3552AC772060093A4F1 /* CardSelectionVC.swift */; };
+		7519D3582AC772B50093A4F1 /* CWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7519D3572AC772B50093A4F1 /* CWButton.swift */; };
+		7519D35A2AC777620093A4F1 /* RulesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7519D3592AC777620093A4F1 /* RulesVC.swift */; };
+		7519D35C2AC77BF40093A4F1 /* CardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7519D35B2AC77BF40093A4F1 /* CardDeck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		7519D3422AC76C380093A4F1 /* CardWorkOut-ProgrammaticUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CardWorkOut-ProgrammaticUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7519D3462AC76C380093A4F1 /* CardWorkOut_ProgrammaticUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardWorkOut_ProgrammaticUITests.swift; sourceTree = "<group>"; };
 		7519D3482AC76C380093A4F1 /* CardWorkOut_ProgrammaticUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardWorkOut_ProgrammaticUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7519D3552AC772060093A4F1 /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
+		7519D3572AC772B50093A4F1 /* CWButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWButton.swift; sourceTree = "<group>"; };
+		7519D3592AC777620093A4F1 /* RulesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesVC.swift; sourceTree = "<group>"; };
+		7519D35B2AC77BF40093A4F1 /* CardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDeck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				7519D32E2AC76C380093A4F1 /* Assets.xcassets */,
 				7519D3302AC76C380093A4F1 /* LaunchScreen.storyboard */,
 				7519D3332AC76C380093A4F1 /* Info.plist */,
+				7519D3552AC772060093A4F1 /* CardSelectionVC.swift */,
+				7519D3572AC772B50093A4F1 /* CWButton.swift */,
+				7519D3592AC777620093A4F1 /* RulesVC.swift */,
+				7519D35B2AC77BF40093A4F1 /* CardDeck.swift */,
 			);
 			path = "CardWorkOut-Programmatic";
 			sourceTree = "<group>";
@@ -258,7 +270,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7519D3582AC772B50093A4F1 /* CWButton.swift in Sources */,
 				7519D32A2AC76C370093A4F1 /* ViewController.swift in Sources */,
+				7519D35A2AC777620093A4F1 /* RulesVC.swift in Sources */,
+				7519D3562AC772060093A4F1 /* CardSelectionVC.swift in Sources */,
+				7519D35C2AC77BF40093A4F1 /* CardDeck.swift in Sources */,
 				7519D3262AC76C370093A4F1 /* AppDelegate.swift in Sources */,
 				7519D3282AC76C370093A4F1 /* SceneDelegate.swift in Sources */,
 			);
@@ -442,7 +458,6 @@
 				INFOPLIST_FILE = "CardWorkOut-Programmatic/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +485,6 @@
 				INFOPLIST_FILE = "CardWorkOut-Programmatic/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
